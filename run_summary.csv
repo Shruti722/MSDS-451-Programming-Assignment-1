@@ -1,0 +1,10 @@
+,0
+ticker,AAPL
+start_date,2010-01-01
+end_date,2025-10-05
+n_obs,3960
+feature_cols,"['CloseLag1', 'CloseLag2', 'CloseLag3', 'HMLLag1', 'HMLLag2', 'HMLLag3', 'OMCLag1', 'OMCLag2', 'OMCLag3', 'VolumeLag1', 'VolumeLag2', 'VolumeLag3', 'CloseEMA2', 'CloseEMA4', 'CloseEMA8']"
+best_subset,"['OMCLag2', 'VolumeLag1', 'CloseLag2', 'HMLLag1', 'CloseEMA8']"
+best_aic,5478.689522946331
+best_cv_auc,0.5020011894485684
+eval_auc,0.5117204490139646
