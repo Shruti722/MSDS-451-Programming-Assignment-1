@@ -31,7 +31,7 @@ While the jump‑start example focused on WTI crude oil, this project focuses on
 git clone https://github.com/YOUR_USERNAME/msds451-pa1-aapl.git
 cd msds451-pa1-aapl 
 ```
-## 2. Install Dependencies
+### 2. Install Dependencies
 
 Use a Python 3.8+ environment and install required packages:
 ```
@@ -42,7 +42,7 @@ Or install manually:
 pip install pandas numpy yfinance xgboost scikit-learn statsmodels matplotlib joblib
 ```
 
-## 3. Run the Pipeline
+### 3. Run the Pipeline
 
 To download data, create features, perform model selection and evaluation:
 ```
