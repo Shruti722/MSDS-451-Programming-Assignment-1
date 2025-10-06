@@ -72,7 +72,7 @@ Evaluate the model and export outputs
 | `xgb_pipeline.joblib`    | Trained XGBoost pipeline                     |
 | `run_summary.csv`        | Summary of model settings and evaluation     |
 | `451_pa1_shruti_aapl.ipynb` | Full pipeline in notebook/script form       |
-| `report.pdf`             | Final technical report                       |
+| `451_pa1_shruti_report.pdf`             | Final technical report                       |
 
 ## Report
 
