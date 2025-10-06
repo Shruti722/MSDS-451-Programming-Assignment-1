@@ -60,3 +60,32 @@ Select the best feature subset using AIC
 Train XGBoost with time‑series cross‑validation
 
 Evaluate the model and export outputs
+
+## Outputs
+| File Name                | Description                                  |
+|--------------------------|----------------------------------------------|
+| `AAPL_data.csv`          | Raw data downloaded from Yahoo Finance       |
+| `AAPL_features_target.csv` | Engineered features and target label         |
+| `aic_subsets_results.csv` | Feature subset AIC scores                    |
+| `roc_curve.png`          | ROC curve plot with AUC                      |
+| `confusion_matrix.png`   | Confusion matrix of final model              |
+| `xgb_pipeline.joblib`    | Trained XGBoost pipeline                     |
+| `run_summary.csv`        | Summary of model settings and evaluation     |
+| `451_pa1_shruti_aapl.ipynb` | Full pipeline in notebook/script form       |
+| `report.pdf`             | Final technical report                       |
+
+## Report
+
+A technical PDF report (report.pdf) is included and follows the structure of the reference 451_pa1_technical_report_v001.pdf. It explains:
+
+Problem definition
+
+Feature design
+
+Subset selection
+
+Model training + evaluation
+
+Interpretation of results
+
+Final AUC: 0.512 — indicates that predicting daily AAPL return direction using simple lag‑based features is difficult due to limited signal.
