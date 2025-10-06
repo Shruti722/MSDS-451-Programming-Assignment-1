@@ -21,12 +21,9 @@ While the jump‑start example focused on WTI crude oil, this project focuses on
 ├── report.pdf # Research‑style writeup
 └── README.md # This file
 
-yaml
-Copy code
-
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the Repository
 
@@ -36,19 +33,11 @@ cd msds451-pa1-aapl
 2. Install Dependencies
 Use a Python 3.8+ environment and install required packages:
 
-bash
-Copy code
 pip install -r requirements.txt
 Or install manually:
-
-bash
-Copy code
 pip install pandas numpy yfinance xgboost scikit-learn statsmodels matplotlib joblib
 3. Run the Pipeline
 To download data, create features, perform model selection and evaluation:
-
-bash
-Copy code
 python 451_pa1_shruti_aapl.py
 This script will:
 
@@ -62,7 +51,7 @@ Train XGBoost with time‑series cross‑validation
 
 Evaluate the model and export outputs
 
-📊 Outputs
+Outputs
 File	Description
 aic_subsets_results.csv	AIC scores for all feature subsets
 roc_curve.png	ROC curve plot with final model AUC
@@ -70,7 +59,7 @@ confusion_matrix.png	Confusion matrix from holdout test set
 xgb_pipeline.joblib	Saved trained model for reuse
 run_summary.csv	Summary of model settings and results
 
-📄 Report
+Report
 A technical PDF report (report.pdf) is included and follows the structure of the reference 451_pa1_technical_report_v001.pdf. It explains:
 
 Problem definition
