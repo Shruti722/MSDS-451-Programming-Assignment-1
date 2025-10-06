@@ -9,7 +9,7 @@ While the jump‑start example focused on WTI crude oil, this project focuses on
 ---
 
 ## ⚙️ Project Structure
-
+```
 ├── AAPL_data.csv # Raw data from Yahoo Finance
 ├── AAPL_features_target.csv # Engineered features and binary target
 ├── aic_subsets_results.csv # Feature subset selection results (AIC)
@@ -20,7 +20,7 @@ While the jump‑start example focused on WTI crude oil, this project focuses on
 ├── 451_pa1_shruti_aapl.ipynb # Python notebook/script (full pipeline)
 ├── report.pdf # Research‑style writeup
 └── README.md # This file
-
+```
 ---
 
 ## How to Run
