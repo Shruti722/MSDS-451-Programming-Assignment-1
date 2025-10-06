@@ -29,5 +29,5 @@ While the jump‑start example focused on WTI crude oil, this project focuses on
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/msds451-pa1-aapl.git
-cd msds451-pa1-aapl ```
+cd msds451-pa1-aapl 
 
