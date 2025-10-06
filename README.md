@@ -17,7 +17,7 @@ While the jump-start example focused on WTI crude oil, this project focuses on *
 ├── 451_pa1_shruti_aapl.ipynb # Python script (full pipeline)
 ├── report.pdf # Research-style writeup
 └── README.md # This file
-### 1. Clone the Repository
+1. Clone the Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/msds451-pa1-aapl.git
