@@ -35,4 +35,3 @@ cd msds451-pa1-aapl
 
 Use a Python 3.8+ environment and install required packages:
 pip install -r requirements.txt
-
