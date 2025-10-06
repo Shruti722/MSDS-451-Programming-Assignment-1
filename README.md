@@ -30,9 +30,33 @@ While the jump‑start example focused on WTI crude oil, this project focuses on
 ```bash
 git clone https://github.com/YOUR_USERNAME/msds451-pa1-aapl.git
 cd msds451-pa1-aapl 
-
+```
 ## 2. Install Dependencies
 
 Use a Python 3.8+ environment and install required packages:
+```
 pip install -r requirements.txt
 ```
+Or install manually:
+```
+pip install pandas numpy yfinance xgboost scikit-learn statsmodels matplotlib joblib
+```
+
+## 3. Run the Pipeline
+
+To download data, create features, perform model selection and evaluation:
+```
+python 451_pa1_shruti_aapl.py
+```
+
+This script will:
+
+Download AAPL data
+
+Generate 15 financial features
+
+Select the best feature subset using AIC
+
+Train XGBoost with time‑series cross‑validation
+
+Evaluate the model and export outputs
