@@ -31,3 +31,8 @@ While the jump‑start example focused on WTI crude oil, this project focuses on
 git clone https://github.com/YOUR_USERNAME/msds451-pa1-aapl.git
 cd msds451-pa1-aapl 
 
+## 2. Install Dependencies
+
+Use a Python 3.8+ environment and install required packages:
+pip install -r requirements.txt
+
